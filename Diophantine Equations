@@ -1,11 +1,3 @@
-''''***''
-Try to use extended Euclid's algorithm to solve Diophantine equations efficiently.
-
-Given three numbers a>0a>0, b>0b>0, and cc, the algorithm should return some xx and yy such that
-
-a x + b y = c ax+by=c
-''''***''
-
 def gcd(a, b):
 	assert a >= 0 and b >= 0 and a + b > 0
 
